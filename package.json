@@ -1,0 +1,25 @@
+{
+  "name": "amm-backend",
+  "version": "1.0.0",
+  "description": "A backend middleware for interacting with the XRP Ledger",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xrplto/amm-backend.git"
+  },
+  "author": "ogadimma osuji",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xrplto/amm-backend/issues"
+  },
+  "homepage": "https://github.com/xrplto/amm-backend#readme",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "dotenv": "^16.4.4",
+    "express": "^4.18.2",
+    "xrpl": "^3.0.0"
+  }
+}
