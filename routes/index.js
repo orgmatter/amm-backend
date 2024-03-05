@@ -1,5 +1,9 @@
 const liquidityRouter = require("./liquidity");
-const routeApi = {
-    liquidityRouter
+const balanceRouter = require("./balances");
+const reserveRouter = require("./reserve");
+
+module.exports = {
+    liquidityRouter,
+    balanceRouter,
+    reserveRouter
 }
-module.exports = routeApi;

@@ -2,9 +2,9 @@ const express = require('express');
 const balanceRouter = express.Router();
 const getBalance = require('../XRPL/getBalance');
 
-balanceRouter.get("/balance", (req, res) => {
+balanceRouter.get("/:address", (req, res) => {
 
-    const { address } = req.body;
+    const { address } = req.params;
     
     getBalance(address)
     .then((balance) => {
